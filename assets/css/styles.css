@@ -242,7 +242,33 @@ body {
     border-radius: 6px;
 }
 
+.recipe--source {
+   
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    column-rule: var(--light--gray);
+}
 
+.recipe--source p {
+    width: 352px;
+    height: auto;
+}
+
+.show {
+    display: block;
+}
+
+.footer {
+    padding: 1em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #828282;
+    text-align: center;
+}
 
 .recipe--content {
     display: flex;
